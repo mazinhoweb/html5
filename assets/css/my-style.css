@@ -1,0 +1,72 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* PersonalizaÃ§Ã£o de Estilos
+    Mazinho Web | July/09/2016 */
+
+/*********************************
+	MENU - INICIO
+*********************************/
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:active, .navbar-inverse .navbar-brand:focus { color: #333; }
+.navbar-inverse .navbar-brand:hover { color: #333; text-shadow: 0 1px 2px rgba(0, 0, 0, .2); }
+
+.navbar-my-style { margin-top: 0px; background-color: #FAFAFA; font-size: 16px; border-color: #E7E7E7; }
+
+@media (min-width:768px) and (max-width:991px){
+	.my-style-menu .navbar-nav > li:nth-child(1) a, .my-style-menu .navbar-nav > li:nth-child(4) a { padding-top: 16px; padding-bottom: 16px; }
+}
+@media screen and (max-width: 767px) {
+	.navbar-my-style { margin-top: 0px; background-color: #FAFAFA; border-color: #E7E7E7; }
+}
+.my-style-menu .nav > li > a { color: #5A5657; outline: 0 none; }
+.my-style-menu .nav > li > a:hover, .my-style-menu .nav > li > a:focus { color: #333; text-decoration: none; background-color: transparent; }
+.navbar-my-style .navbar-nav > .active > a, .navbar-my-style .navbar-nav > .active > a:hover, .navbar-my-style .navbar-nav > .active > a:focus { color: #333; background-color: transparent; }
+
+@media screen and (max-width: 767px) {
+	.navbar-inverse .navbar-toggle { margin-top: 12px; background-color: #7A7A7A; border: 1px solid #7A7A7A; }
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { margin-top: 12px; background-color: #333 !important; border: 1px solid #2290c9; }
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-color: #F1F1F1; }
+
+
+/*********************************
+	PERSONALIZACAO
+*********************************/
+body { padding-top: 50px; padding-bottom: 20px; }
+.margin-top-30 { margin-top: 30px; }
+
+.navbar-header > .navbar-brand { padding-bottom: 40px; font-size: 30px; }
+
+.jumbotron h1 { color: #FAFAFA; }
+.jumbotron h1 figure figcaption { margin-top: 50px; }
+.jumbotron { margin-bottom: 60px; color: #FFF; background: #000 url("../img/fire.jpg") no-repeat center bottom; }
+
+.featurette-divider { margin: 80px 0; }
+
+.btn-outline-header { color: #fff; background-color: transparent; border-color: #fff; }
+.btn-outline-header:active, .btn-outline-header:focus, .btn-outline-header:hover { color: #fff; background-color: #e44d26; border-color: #e44d26; }
+.btn-outline-content { color: #fff; background-color: #f16529; border-color: #f16529; }
+.btn-outline-content:active, .btn-outline-content:focus, .btn-outline-content:hover { color: #fff; background-color: #e44d26; border-color: #e44d26; }
+
+.fa-lg { background: #FFF; color: #f16529; }
+.fa-lg:active, .fa-lg:focus, .fa-lg:hover { background: #FFF; color:  #e44d26; }
+
+.fa-content { background: #FFF; color: #CCC; }
+.fa-content:active, a.fa-content:focus, a.fa-content:hover { background: #FFF; color:  #e44d26; }
+
+.email, .email:active, .email:focus { color: #5a5a5a; }
+.email:hover { color: #333; text-shadow: 0 1px 2px rgba(0, 0, 0, .1); }
+.text-left { text-align: left; }
+
+footer { color: #5A5657; }
+footer .my-footer { font-size: 16px; color: #5A5657; }
+footer .my-footer:active, footer.my-footer:focus, footer .my-footer:hover { color: #333; text-decoration: none; }
+a, a:hover, a:focus { outline: 0 none; color: #5A5657; text-decoration: none; }
+
+
+@media screen and (max-width: 767px) {
+	.text-xs-center { text-align: center !important; }
+	.margin-xs-top-30 { margin-top: 30px; }
+	.margin-xs-top-50 { margin-top: 50px; }
+	.navbar-header > .navbar-brand { font-size: 24px; }
+}

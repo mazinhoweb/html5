@@ -1,19 +1,174 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="pt-br"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
     <head>
-        <meta charset="UTF-8" />
-        <title>Projeto do Curso HTML5</title>
+        <meta charset="utf-8">
+        <title>HTML5: Desenvolvimento Web para Iniciantes</title>
+        <meta name="author" content="Mazinho Web">
+        <meta name="description" content="HTML5: Desenvolvimento Web para Iniciantes">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="assets/img/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Meus estilos -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/my-style.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body>
-        <h1>Projeto do Curso HTML5</h1>
-        <ul>
-            <li>HTML5: Desenvolvimento Web para Iniciantes</li>
-            <li>https://www.udemy.com/html5-desenvolvimento-web/</li>
-        </ul>
-        <h1>Projeto Final</h1>
-        <ul>
-            <li>Aplicando HTML5</li>
-            <li>https://mazinhoweb.github.io/html5</li>
-        </ul>
+    <body data-spy="scroll" id="page-top">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <header id="home">
+            <nav class="navbar navbar-my-style navbar-fixed-top navbar-inverse" role="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="#home"><strong>Curso de </strong><i class="fa fa-html5 fa-lg"></i></a>
+                </div><!-- /.navbar-header -->
+                <div id="navbar" class="navbar-collapse collapse my-style-menu">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="#home">Home</a></li>
+                    <li><a class="page-scroll" href="#sobre">Sobre</a></li>
+                    <li><a class="page-scroll" href="#descricao">Descrição</a></li>
+                    <li><a class="page-scroll" href="#contato">Contato</a></li>
+                  </ul>
+                </div><!-- /.nav-collapse -->
+              </div>
+            </nav>
+        <header>
+
+
+        <section class="jumbotron">
+            <div class="container text-center">
+                <h1>
+                   <figure>
+                       <img class="img-responsive center-block" src="assets/img/html5-logo.png" alt="HTML5 image"  width="180" height="180">
+                       <figcaption>Desenvolvimento Web para Iniciantes</figcaption>
+                    </figure>
+                </h1>
+                <p>Aprenda HTML5 do Zero e desenvolva seus próprios websites para outras pessoas acessarem! </p>
+                <p><a class="btn btn-lg btn-outline btn-outline-header page-scroll" href="#descricao" target="_blank" role="button">Saiba mais &raquo;</a></p>
+            </div>
+        </section>
+
+
+        <section class="container" id="sobre">
+            <div class="row featurette">
+                <div class="col-sm-3 col-lg-3">
+                    <h2 class="featurette-heading text-center">
+                        <figure>
+                            <img class="margin-xs-top-30 img-circle hidden-sm hidden-md hidden-lg" src="assets/img/marcos-castro.jpg" alt="Marcos Castro image" title="Marcos Castro"  width="140" height="140">
+                            <img class="img-circle hidden-xs featurette-image img-responsive center-block" src="assets/img/marcos-castro.jpg" alt="Marcos Castro image" title="Marcos Castro">
+                        </figure>
+                    </h2>
+                    <p class="hidden-lg text-center">
+                        <a class="fa-content" href="https://twitter.com/mcastrosouza" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+                        <a class="fa-content" href="https://www.facebook.com/TheLifelongTeacher" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a class="fa-content" href="https://www.youtube.com/c/marcoscastrosouza" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a>
+                        <a class="fa-content" href="https://github.com/marcoscastro" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+                    </p>
+                    <p class="hidden-xs hidden-sm hidden-md text-center">
+                        <a class="fa-content" href="https://twitter.com/mcastrosouza" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a>
+                        <a class="fa-content" href="https://www.facebook.com/TheLifelongTeacher" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a>
+                        <a class="fa-content" href="https://www.youtube.com/c/marcoscastrosouza" target="_blank"><i class="fa fa-youtube-square fa-4x"></i></a>
+                        <a class="fa-content" href="https://github.com/marcoscastro" target="_blank"><i class="fa fa-github-square fa-4x"></i></a>
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-sm-offset-1 col-lg-8 col-lg-offset-1">
+                    <h2 class="featurette-heading"><span class="text-muted">Marcos Castro</span></h2>
+                    <p class="lead">Olá, meu nome é Marcos Castro e eu amo compartilhar conhecimento!</p>
+                    <p class="lead">A minha formação é em Ciência da Computação. Além da computação, me interesso por educação a distância, empreendedorismo, marketing digital, inteligência artificial, ciência de dados e muito mais.</p>
+                    <p class="lead">Elaborei mais de 25 cursos, tenho mais de 7 mil alunos espalhados por mais de 65 países. Acredito que a educação pode transformar as pessoas contribuindo para um mundo melhor!</p>
+                </div>
+            </div>
+        </section> <!-- /container -->
+
+
+        <hr class="featurette-divider">
+        <div class="clearfix"></div>
+
+
+        <section class="container" id="descricao">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Descrição</h2>
+                    <p class="lead">Você quer aprender sobre desenvolvimento web? Então você está na página certa! Nesse curso daremos início ao aprendizado de HTML5 que é uma das linguagens que utilizamos para desenvolver websites.</p>
+                    <p class="lead">HTML significa Hypertext Markup Language que significa Linguagem de Marcação de Hipertexto. HTML é a linguagem base da Internet e é preciso sabê-la para desenvolver websites. HTML é uma linguagem baseada em marcação, nós marcamos os elementos para mostrar quais informações a página exibe!</p>
+
+                    <p class="lead">Nesse curso você irá aprender HTML de forma prática, dinâmica e didática. Todo o curso é em vídeo-aulas, você poderá acessar quantas vezes quiser e onde quiser, você terá acesso vitalício! Você aprenderá com Marcos Castro que possui mais de 7 mil alunos espalhados por mais de 65 países, é garantia de satisfação!</p>
+                    <p class="lead">O que está esperando? Cadastre-se agora mesmo no curso de HTML5 para Iniciantes e aprenda HTML de uma vez por todas! Aguardo você no curso!</p>
+                </div>
+                <div class="col-md-4 col-lg-offset-1">
+                    <h3 class="list-group-item">Quais são os requisitos?</h3>
+                    <p class="list-group-item">Querer aprender sobre desenvolvimento web com HTML5, não exige conhecimento prévio.</p>
+                    <h3 class="list-group-item">O que vou aprender?</h3>
+                    <p class="list-group-item">Sintaxe e os recursos da linguagem HTML5. <br />
+                    Desenvolvimento de websites utilizando HTML5. Disponibilizar seus websites na web para outras pessoas acessarem.</p>
+                    <h3 class="list-group-item">Qual é o público-alvo?</h3>
+                    <p class="list-group-item">Pessoas que querem aprender sobre desenvolvimento web com HTML5.</p>
+                    <p class="lead"><a class="btn btn-lg btn-outline btn-outline-content margin-top-30" href="https://www.udemy.com/html5-desenvolvimento-web/" target="_blank" role="button">Iniciar o curso agora &raquo;</a></p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="featurette-divider">
+        <div class="clearfix"></div>
+
+        <section class="container" id="contato">
+            <div class="row featurette">
+              <div class="col-md-4">
+                <h2 class="featurette-heading"><span class="text-muted">Aguardo o seu contato</span></h2>
+              </div>
+              <div class="col-md-8">
+                <h2 class="featurette-heading">Se você quiser entrar em contato comigo, basta enviar um e-mail.</h2>
+                <p class="lead"><span class="text-muted">E-mail:</span> mcastrosouza@live.com</p>
+              </div>
+            </div><!-- /.row -->
+        </section><!-- /.container -->
+
+
+        <hr class="featurette-divider">
+        <div class="clearfix"></div>
+
+
+        <section class="container">
+            <!-- FOOTER -->
+            <footer>
+              <div class="col-xs-12 col-sm-6 col-lg-6 pull-right text-right">
+                <p class="text-xs-center"><a class="page-scroll my-footer" href="#home">Home</a> &nbsp; <a class="page-scroll my-footer" href="#sobre">Sobre</a> &nbsp; <a class="page-scroll my-footer" href="#descricao">Descrição</a> &nbsp; <a class="page-scroll my-footer" href="#contato">Contato</a></p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-6">
+                <p class="text-left text-xs-center">&copy; 2016 <a href="http://mazinhoweb.com/" target="_blank">Mazinho Web</a> <a href="https://mazinhoweb.github.io/" target="_blank"><i class="fa fa-github-square"></i></a> | Esse site foi desenvolvido como projeto final do Curso HTML5: Desenvolvimento Web para Iniciantes.</p>
+              </div>
+            </footer>
+        </section><!-- /.container -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <!-- Scrolling Nav JavaScript -->
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <script src="assets/js/jquery.scrollNav.min.js"></script>
+
+        <script src="assets/js/my-script.js"></script>
     </body>
 </html>
